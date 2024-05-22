@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="converter">
+            <label for="menu">Choose Conversion:</label>
+            <select id="menu">
+                <option value="">Select Conversion</option>
+                <option value="1">DOLLAR to PKR</option>
+                <option value="2">PKR to DOLLAR</option>
+            </select>
+            <input type="number" id="amount" placeholder="Enter Amount">
+            <button id="convert">Convert</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
